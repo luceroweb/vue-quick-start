@@ -1,5 +1,5 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
+import WelcomeBanner from './components/WelcomeBanner.vue'
 import TheWelcome from './components/TheWelcome.vue'
 </script>
 
@@ -8,7 +8,7 @@ import TheWelcome from './components/TheWelcome.vue'
     <img alt="" class="logo" src="./assets/juan_face_2023.jpg" />
 
     <div class="wrapper">
-      <HelloWorld msg="22 years moving user-focused organizations forward." />
+      <WelcomeBanner msg="22 years moving user-focused organizations forward." />
     </div>
   </header>
 
