@@ -9,21 +9,28 @@ import SupportIcon from './icons/IconSupport.vue'
 
 <template>
   <WelcomeItem>
-    <template #icon>
-      <DocumentationIcon />
+    <template #dates>
+      2021 2023
     </template>
-    <template #heading>Documentation</template>
+    <template #location>Fresno, CA</template>
+    <template #organization>AlphaWorks/Bitwise</template>
+    <template #jobtitle>Apprentice Lead (Manager)</template>
 
-    Vue’s
-    <a href="https://vuejs.org/" target="_blank" rel="noopener">official documentation</a>
-    provides you with all information you need to get started.
+    <p>Trained 36 apprentices across 3 apprenticeships in React/React-Native.</p>
+    <ul>
+      <li>React &amp; Native w/ TypeScript collaborative project hands on training</li>
+      <li>Provided remote instruction focusing on collaborative team building</li>
+      <li>Trained: HTML/CSS/JS, Agile Methodology, gitHub, debugging</li>
+    </ul>
   </WelcomeItem>
 
   <WelcomeItem>
-    <template #icon>
-      <ToolingIcon />
+    <template #dates>
+      2021 2023
     </template>
-    <template #heading>Tooling</template>
+    <template #location>Fresno, CA</template>
+    <template #organization>Tooling</template>
+    <template #jobtitle>Tooling</template>
 
     This project is served and bundled with
     <a href="https://vitejs.dev/guide/features.html" target="_blank" rel="noopener">Vite</a>. The
@@ -40,10 +47,12 @@ import SupportIcon from './icons/IconSupport.vue'
   </WelcomeItem>
 
   <WelcomeItem>
-    <template #icon>
-      <EcosystemIcon />
+    <template #dates>
+      2021 2023
     </template>
-    <template #heading>Ecosystem</template>
+    <template #location>Fresno, CA</template>
+    <template #organization>Ecosystem</template>
+    <template #jobtitle>Tooling</template>
 
     Get official tools and libraries for your project:
     <a href="https://pinia.vuejs.org/" target="_blank" rel="noopener">Pinia</a>,
@@ -56,10 +65,12 @@ import SupportIcon from './icons/IconSupport.vue'
   </WelcomeItem>
 
   <WelcomeItem>
-    <template #icon>
-      <CommunityIcon />
+    <template #dates>
+      2021 2023
     </template>
-    <template #heading>Community</template>
+    <template #location>Fresno, CA</template>
+    <template #organization>Community</template>
+    <template #jobtitle>Tooling</template>
 
     Got stuck? Ask your question on
     <a href="https://chat.vuejs.org" target="_blank" rel="noopener">Vue Land</a>, our official
@@ -74,10 +85,12 @@ import SupportIcon from './icons/IconSupport.vue'
   </WelcomeItem>
 
   <WelcomeItem>
-    <template #icon>
-      <SupportIcon />
+    <template #dates>
+      2021 2023
     </template>
-    <template #heading>Support Vue</template>
+    <template #location>Fresno, CA</template>
+    <template #organization>Support Vue</template>
+    <template #jobtitle>Tooling</template>
 
     As an independent project, Vue relies on community backing for its sustainability. You can help
     us by

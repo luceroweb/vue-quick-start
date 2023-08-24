@@ -1,11 +1,18 @@
+<script setup>
+import GeoIcon from './icons/IconGeo.vue'
+</script>
+
 <template>
   <div class="item">
     <i>
-      <slot name="icon"></slot>
+      <slot name="dates"></slot>
     </i>
     <div class="details">
       <h3>
-        <slot name="heading"></slot>
+        <GeoIcon /> <slot name="location"></slot>
+      </h3>
+      <h3>
+        <slot name="organization"></slot> | <slot name="jobtitle"></slot>
       </h3>
       <slot></slot>
     </div>
@@ -28,10 +35,15 @@ i {
   display: flex;
   place-items: center;
   place-content: center;
-  width: 32px;
-  height: 32px;
+  border-radius: 8px;
+  width: 50px;
+  height: 50px;
 
-  color: var(--color-text);
+  background-color: var(--primary-color);
+  color: var(--vt-c-white);
+
+  text-align: center;
+  font-style: normal;
 }
 
 h3 {
@@ -52,10 +64,7 @@ h3 {
     left: -26px;
     position: absolute;
     border: 1px solid var(--color-border);
-    background: var(--color-background);
-    border-radius: 8px;
-    width: 50px;
-    height: 50px;
+    background: var(--primary-color);
   }
 
   .item:before {
