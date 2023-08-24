@@ -11,7 +11,7 @@ defineProps({
   <div class="greetings">
     <h1 class="green">{{ msg }}</h1>
     <h3>
-      I build happy, collaborative, efficient, user-focused teams. Happy teams= happy clients.
+      I build happy, collaborative, efficient, user-focused teams. Happy teams = happy clients.
     </h3>
   </div>
 </template>
