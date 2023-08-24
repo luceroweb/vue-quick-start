@@ -21,74 +21,69 @@ import WelcomeItem from './WelcomeItem.vue'
 
   <WelcomeItem>
     <template #dates>
-      2021 2023
+      2015 2021
     </template>
-    <template #location>Fresno, CA</template>
-    <template #organization>Tooling</template>
-    <template #jobtitle>Tooling</template>
+    <template #location>Irvine, CA</template>
+    <template #organization>Content.ad</template>
+    <template #jobtitle>Front End Web Developer</template>
 
-    This project is served and bundled with
-    <a href="https://vitejs.dev/guide/features.html" target="_blank" rel="noopener">Vite</a>. The
-    recommended IDE setup is
-    <a href="https://code.visualstudio.com/" target="_blank" rel="noopener">VSCode</a> +
-    <a href="https://github.com/johnsoncodehk/volar" target="_blank" rel="noopener">Volar</a>. If
-    you need to test your components and web pages, check out
-    <a href="https://www.cypress.io/" target="_blank" rel="noopener">Cypress</a> and
-    <a href="https://on.cypress.io/component" target="_blank">Cypress Component Testing</a>.
+    Helped build/maintain digital ad network serving 1 billion+ impressions/day.
 
-    <br />
-
-    More instructions are available in <code>README.md</code>.
+    <ul>
+      <li>Scrum Master for company Portal.</li>
+      <li>React development for internal users, advertisers, and publishers</li>
+      <li>Maintained & extended HTML/CSS/JS ad layouts & animations</li>
+      <li>Maintained high traffic WP sites plus primary marketing site & WP Plugin</li>
+    </ul>
   </WelcomeItem>
 
   <WelcomeItem>
     <template #dates>
-      2021 2023
+      2012 2015
     </template>
-    <template #location>Fresno, CA</template>
-    <template #organization>Ecosystem</template>
-    <template #jobtitle>Tooling</template>
+    <template #location>Costa Mesa, CA</template>
+    <template #organization>Experian Consumer Direct</template>
+    <template #jobtitle>Front End Web Developer</template>
 
-    Get official tools and libraries for your project:
-    <a href="https://pinia.vuejs.org/" target="_blank" rel="noopener">Pinia</a>,
-    <a href="https://router.vuejs.org/" target="_blank" rel="noopener">Vue Router</a>,
-    <a href="https://test-utils.vuejs.org/" target="_blank" rel="noopener">Vue Test Utils</a>, and
-    <a href="https://github.com/vuejs/devtools" target="_blank" rel="noopener">Vue Dev Tools</a>. If
-    you need more resources, we suggest paying
-    <a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">Awesome Vue</a>
-    a visit.
+    Helped build Experian's <a href="https://FreeCreditReport.com" rel="noreferrer" target="_blank">FreeCreditReport.com</a> / <a href="https://FreeCreditScore.com" rel="noreferrer" target="_blank">FreeCreditScore.com</a> white label sites for corporate clients.
+
+    <ul>
+      <li>Web Accessibility Expert for Experian's client, Wells Fargo</li>
+      <li>Utilized Visual Studio with git, and Tridion CMS among others.</li>
+      <li>Bootstrap Expert for USAA's Angular Credit Check products</li>
+    </ul>
   </WelcomeItem>
 
   <WelcomeItem>
     <template #dates>
-      2021 2023
+      2009 2012
     </template>
-    <template #location>Fresno, CA</template>
-    <template #organization>Community</template>
-    <template #jobtitle>Tooling</template>
+    <template #location>Buena Park, CA</template>
+    <template #organization>Yamaha</template>
+    <template #jobtitle>Front End Web Developer Lead</template>
 
-    Got stuck? Ask your question on
-    <a href="https://chat.vuejs.org" target="_blank" rel="noopener">Vue Land</a>, our official
-    Discord server, or
-    <a href="https://stackoverflow.com/questions/tagged/vue.js" target="_blank" rel="noopener"
-      >StackOverflow</a
-    >. You should also subscribe to
-    <a href="https://news.vuejs.org" target="_blank" rel="noopener">our mailing list</a> and follow
-    the official
-    <a href="https://twitter.com/vuejs" target="_blank" rel="noopener">@vuejs</a>
-    twitter account for latest news in the Vue world.
+    On-site lead for off-shore team to developed promo sites using HTML/CSS/jQuery
+
+    <ul>
+      <li>Developed live & pre-recorded video and slideshow galleries</li>
+      <li>Aided Yamaha Corporation of America redesign/migration</li>
+      <li>Direct internal client communication to manage dev team in India</li>
+    </ul>
   </WelcomeItem>
 
   <WelcomeItem>
     <template #dates>
-      2021 2023
+      2007 2009
     </template>
     <template #location>Fresno, CA</template>
-    <template #organization>Support Vue</template>
-    <template #jobtitle>Tooling</template>
+    <template #organization>e:Design, inc.</template>
+    <template #jobtitle>Web Architect</template>
 
-    As an independent project, Vue relies on community backing for its sustainability. You can help
-    us by
-    <a href="https://vuejs.org/sponsor/" target="_blank" rel="noopener">becoming a sponsor</a>.
+    Tight knit print and web family; building projects for education, business and nonprofit.
+
+    <ul>
+      <li>Created, debugged, maintained exciting WordPress sites using PHP/MySQL/HTML/CSS/jQuery</li>
+      <li>Trained clients remotely on use of WordPress</li>
+    </ul>
   </WelcomeItem>
 </template>
