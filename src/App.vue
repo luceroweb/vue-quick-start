@@ -1,6 +1,6 @@
 <script setup>
 import WelcomeBanner from './components/WelcomeBanner.vue'
-import TheWelcome from './components/TheWelcome.vue'
+import ExperienceList from './components/ExperienceList.vue'
 </script>
 
 <template>
@@ -13,7 +13,7 @@ import TheWelcome from './components/TheWelcome.vue'
   </header>
 
   <main>
-    <TheWelcome />
+    <ExperienceList />
   </main>
 </template>
 
