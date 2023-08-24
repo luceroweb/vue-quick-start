@@ -1,9 +1,9 @@
 <script setup>
-import WelcomeItem from './WelcomeItem.vue'
+import ExperienceItem from './ExperienceItem.vue'
 </script>
 
 <template>
-  <WelcomeItem>
+  <ExperienceItem>
     <template #dates>
       2021 2023
     </template>
@@ -17,9 +17,9 @@ import WelcomeItem from './WelcomeItem.vue'
       <li>Provided remote instruction focusing on collaborative team building</li>
       <li>Trained: HTML/CSS/JS, Agile Methodology, gitHub, debugging</li>
     </ul>
-  </WelcomeItem>
+  </ExperienceItem>
 
-  <WelcomeItem>
+  <ExperienceItem>
     <template #dates>
       2015 2021
     </template>
@@ -35,9 +35,9 @@ import WelcomeItem from './WelcomeItem.vue'
       <li>Maintained & extended HTML/CSS/JS ad layouts & animations</li>
       <li>Maintained high traffic WP sites plus primary marketing site & WP Plugin</li>
     </ul>
-  </WelcomeItem>
+  </ExperienceItem>
 
-  <WelcomeItem>
+  <ExperienceItem>
     <template #dates>
       2012 2015
     </template>
@@ -52,9 +52,9 @@ import WelcomeItem from './WelcomeItem.vue'
       <li>Utilized Visual Studio with git, and Tridion CMS among others.</li>
       <li>Bootstrap Expert for USAA's Angular Credit Check products</li>
     </ul>
-  </WelcomeItem>
+  </ExperienceItem>
 
-  <WelcomeItem>
+  <ExperienceItem>
     <template #dates>
       2009 2012
     </template>
@@ -69,9 +69,9 @@ import WelcomeItem from './WelcomeItem.vue'
       <li>Aided Yamaha Corporation of America redesign/migration</li>
       <li>Direct internal client communication to manage dev team in India</li>
     </ul>
-  </WelcomeItem>
+  </ExperienceItem>
 
-  <WelcomeItem>
+  <ExperienceItem>
     <template #dates>
       2007 2009
     </template>
@@ -85,5 +85,5 @@ import WelcomeItem from './WelcomeItem.vue'
       <li>Created, debugged, maintained exciting WordPress sites using PHP/MySQL/HTML/CSS/jQuery</li>
       <li>Trained clients remotely on use of WordPress</li>
     </ul>
-  </WelcomeItem>
+  </ExperienceItem>
 </template>
