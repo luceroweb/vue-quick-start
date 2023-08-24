@@ -5,10 +5,10 @@ import TheWelcome from './components/TheWelcome.vue'
 
 <template>
   <header>
-    <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
+    <img alt="" class="logo" src="./assets/juan_face_2023.jpg" />
 
     <div class="wrapper">
-      <HelloWorld msg="You did it!" />
+      <HelloWorld msg="22 years moving user-focused organizations forward." />
     </div>
   </header>
 
@@ -25,6 +25,9 @@ header {
 .logo {
   display: block;
   margin: 0 auto 2rem;
+  aspect-ratio: 1/1;
+  max-width: 50%;
+  border-radius: 5px;
 }
 
 @media (min-width: 1024px) {
